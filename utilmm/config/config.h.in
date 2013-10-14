@@ -1,0 +1,8 @@
+#ifndef UTILMM_CONFIG_H
+#define UTILMM_CONFIG_H
+
+#define RETSIGTYPE void
+#cmakedefine WORDS_BIGENDIAN
+
+#endif
+

@@ -1,0 +1,10 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: UtilMM
+Description: LAAS' utils for C++
+Version: 1.0.0
+Libs: -L${libdir} -lutilmm
+Cflags: -I${includedir}
+

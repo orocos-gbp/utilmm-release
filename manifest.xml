@@ -1,0 +1,16 @@
+<package>
+  <description brief="C++ toolkit">
+    This library is a collection of useful C++ classes
+  </description>
+  <author>Sylvain Joyeux/sylvain.joyeux@m4x.org</author>
+  <copyright>
+      LAAS-CNRS/openrobots@laas.fr
+      Sylvain Joyeux/sylvain.joyeux@m4x.org
+  </copyright>
+  <license>CeCILL-B (BSD-like)</license>
+
+  <rosdep name="boost" />
+  <export>
+    <cpp cflags="-I${prefix}/install/include" lflags="-L${prefix}/install/lib -lutilmm -Wl,-rpath,-L${prefix}/lib"/>
+  </export>
+</package>
