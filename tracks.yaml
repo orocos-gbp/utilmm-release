@@ -8,14 +8,14 @@ tracks:
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
-    devel_branch: null
+    devel_branch: toolchain-2.7
     last_version: 2.7.0-rc1
     name: upstream
     patches: null
     release_inc: '0'
     release_repo_url: null
-    release_tag: v:{version}
+    release_tag: :{ask}
     ros_distro: hydro
     vcs_type: git
-    vcs_uri: https://git.gitorious.org/orocos-toolchain/utilmm.git
-    version: 2.7.0
+    vcs_uri: https://github.com/orocos-toolchain/utilmm.git
+    version: :{ask}
