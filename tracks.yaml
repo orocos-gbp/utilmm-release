@@ -18,4 +18,4 @@ tracks:
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://git.gitorious.org/orocos-toolchain/utilmm.git
-    version: 2.7.0-rc1
+    version: 2.7.0
